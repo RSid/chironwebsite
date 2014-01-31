@@ -1,0 +1,164 @@
+img {
+display: block;
+margin: auto;
+}
+
+img{
+clear:both;
+float:left;
+max-height:400px;
+padding:0px;
+}
+
+
+.logo img{
+width:85%;
+height:auto;
+}
+
+.logo {
+	position:absolute;
+	top:30px;
+	left:50px;
+}
+
+
+.bodytext{
+clear:both;
+padding:70px 0 80px 10px;
+float:left;
+bottom:-130px;
+font-size:1.2em;
+font-family:Calibri,Verdana,Sans;
+color:grey;
+}
+
+.bodytext a{
+	font-size:1em;
+}
+
+#tagline{
+font-size:.8em;
+font-family:Calibri,Verdana,Sans;
+font-style:italic;
+position:absolute;
+top:60px;
+left:230px;
+}
+
+#header_rect {
+	width:60%;
+	height:auto;
+	position:absolute;
+	top:18px;
+	right:0px;
+	background: #5ca2a6;
+	text-align:justify;
+	-ms-text-justify:distribute-all-lines;
+	text-justify:distribute-all-lines;
+}
+	
+.menuitem {
+	width:auto;
+	height:7px;
+	vertical-align:middle;
+	display:inline-block;
+	*display:inline;
+	zoom:1
+	background:#000;
+	padding: 1% 3% 1% 3%;
+	font-family:Calibri,Verdana,Sans;
+}
+
+.menuitem a {
+text-decoration:none;
+color:white;
+}
+
+.menuitem a:visited {
+text-decoration:none;
+}
+
+.menuitem a:active {
+text-decoration:none;
+}
+
+.menuitem:hover{
+font-weight:bold;
+}
+	
+.stretcher {
+	width:100%;
+	display: inline-block;
+	font-size:0;
+	line-height:0;
+}
+
+.pageimage img {
+float:left;
+width:100%;
+height:auto;
+margin: 15% 0 0% 0%;
+}
+
+#pageblock {
+	display:inline;
+	right:0px;
+	width:100px;
+	height:auto;
+	background:#aa8822;
+}
+
+.bio img{
+	height:200px;
+	width:auto;
+	margin:10px;
+	border: 1px solid grey;
+}
+
+.bio p{
+padding:70px 100px 100px 100px;
+}
+
+#form{
+
+}
+
+h1 {
+	font-size: 1 em;
+}
+
+
+#captions {
+	position:inline;
+	width:20%;
+	height:auto;
+}
+
+.social{
+	position:relative;
+	clear:both;
+	bottom:-6px;
+	padding: 0% 45% 0% 45%;
+}
+.social .soc_icons{
+	list-style-type:none;
+}
+
+.soc_icons li  {
+	display:inline-block;
+	*display:inline;
+}
+
+.soc_icons img {
+	height:20px;
+	width:auto;
+	display:inline;
+}
+
+html {
+  max-width: 1300px;
+  margin: 0 auto;
+  background: #ffffff; /* Fills the page */
+  position: relative; /* Fix for absolute positioning */
+}
